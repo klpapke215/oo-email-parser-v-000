@@ -12,7 +12,7 @@ class EmailParser
   end
 
   def parse
-    @emails.split(" ").each{|email| email.split(",")}
+    @emails.split(" ").map{|email| email.split(",")}
   end
 
 end
