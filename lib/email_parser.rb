@@ -12,7 +12,7 @@ class EmailParser
   end
 
   def parse
-    @@email_list[:addresses].split(",", " ").strip
+    @@email_list(:addresses).split(",", " ").strip
   end
 
 end
