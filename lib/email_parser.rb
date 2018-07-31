@@ -12,7 +12,7 @@ class EmailParser
   end
 
   def parse
-    @@email_list.split(",").strip
+    @@email_list.parse(",").strip
   end
 
 end
